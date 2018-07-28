@@ -1,0 +1,13 @@
+x=int(input())
+if(x>=2):
+	s=1
+	while(s<=x):
+		s=s*2
+		if(s==x):
+			break
+	if(s==x):
+		print("yes")
+	else:
+		print("no")
+else:
+	print("no")
